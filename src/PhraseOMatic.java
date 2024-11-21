@@ -9,7 +9,7 @@ public class PhraseOMatic {
         int threeLength = wordListThree.length;
 
         java.util.Random randomGenerator = new java.util.Random();
-        int rand1 = randomGenerator.nextInt(oneLength);
+        int rand1 = randomGenerator.nextInt(oneLength); //get the length of array
         int rand2 = randomGenerator.nextInt(twoLength);
         int rand3 = randomGenerator.nextInt(threeLength);
 
